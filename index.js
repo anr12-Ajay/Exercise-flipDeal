@@ -1,7 +1,7 @@
-const express = require('express');
+let express = require('express');
 const { resolve } = require('path');
 
-const app = express();
+let app = express();
 const port = 3000;
 
 let cors = require('cors');
